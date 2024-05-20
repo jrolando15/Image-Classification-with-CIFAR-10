@@ -137,7 +137,7 @@ print('Test accuracy:', scores[1])
 model.save('cifar10_model.h5')
 ```
 
-## Prediiction
+## Prediction
 The trained model can be loaded and used to make predictions on new images. The predict() function is used to obtain the predicted class probabilities for a set of images.
 ```bash
 from tensorflow.keras.models import load_model
